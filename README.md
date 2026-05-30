@@ -1,1 +1,1 @@
-# nandini-dance-school
+# Nandini Dance School Portfolio\n\nA classical Indian dance school portfolio website.\n\n## Local Demo\nYou can view the demo by opening `index.html` in your browser.\n\n## Features\n- Sticky Contact Bar\n- Hero Section with Floating Nataraj SVG\n- About Section with Cultural Pull-quote\n- Performance Gallery with Lightbox\n- Press Section\n- Booking Form with Validation\n- Scroll-Reactive Color System\n- Full Responsiveness
