@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandini Dance School — Classical Bharatanatyam Classes</title>
+  <meta name="description" content="Classical Indian Dance School offering Bharatanatyam classes for all ages. Where tradition meets devotion.">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <!-- STICKY CONTACT BAR -->
+  <div class="sticky-bar">
+    <div class="sticky-bar-item">🕐 Sat: 11am–12pm</div>
+    <div class="sticky-bar-item">📍 Longlevens Community Centre</div>
+    <div class="sticky-bar-item">📞 07807371958</div>
+  </div>
+
+  <!-- HEADER & NAVIGATION -->
+  <header>
+    <nav>
+      <a href="#home" class="logo">
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
+          <circle cx="50" cy="50" r="35" fill="currentColor" opacity="0.3"/>
+        </svg>
+        Nandini Dance School
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#press">Press</a></li>
+        <li><a href="#booking">Book Now</a></li>
+      </ul>
+      
+      <button class="cta-button" onclick="document.getElementById('booking').scrollIntoView({ behavior: 'smooth' })">Book a Trial</button>
+      
+      <div class="hamburger" onclick="toggleMobileMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-content hero-text">
+      <div class="hero-eyebrow">Classical Indian Dance</div>
+      <h1 class="hero-title">Where Movement Becomes Devotion</h1>
+      <p class="hero-subtitle">Classical Bharatanatyam classes for all ages — rooted in tradition, taught with heart. Join us this Saturday for your first free class.</p>
+      <button class="hero-cta" onclick="document.getElementById('booking').scrollIntoView({ behavior: 'smooth' })">Book A Free Trial Class →</button>
+    </div>
+    
+    <div class="hero-visual">
+      <div class="nataraj-frame">
+        <svg class="nataraj-vector" viewBox="0 0 200 280" xmlns="http://www.w3.org/2000/svg">
+          <!-- BODY -->
+          <ellipse cx="100" cy="120" rx="35" ry="45" fill="#B71C1C" stroke="#B71C1C" stroke-width="2"/>
+          <!-- HEAD -->
+          <circle cx="100" cy="55" r="28" fill="#B71C1C" stroke="#B71C1C" stroke-width="2"/>
+          <!-- CROWN/HEADDRESS -->
+          <path d="M 75 35 Q 100 15 125 35 L 120 45 Q 100 30 80 45 Z" fill="#FFC107" stroke="#B71C1C" stroke-width="2"/>
+          <!-- FACE DETAILS -->
+          <circle cx="92" cy="50" r="3" fill="#FFC107"/>
+          <circle cx="108" cy="50" r="3" fill="#FFC107"/>
+          <path d="M 95 60 Q 100 65 105 60" stroke="#FFC107" stroke-width="2" fill="none"/>
+          <!-- LEFT ARM (raised) -->
+          <line x1="70" y1="110" x2="45" y2="70" stroke="#B71C1C" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="45" cy="70" r="6" fill="#FFC107" stroke="#B71C1C" stroke-width="2"/>
+          <!-- RIGHT ARM (extended) -->
+          <line x1="130" y1="115" x2="165" y2="100" stroke="#B71C1C" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="165" cy="100" r="6" fill="#FFC107" stroke="#B71C1C" stroke-width="2"/>
+          <!-- LEFT LEG (bent) -->
+          <path d="M 85 160 Q 75 190 70 230" stroke="#B71C1C" stroke-width="8" stroke-linecap="round" fill="none"/>
+          <circle cx="70" cy="230" r="5" fill="#FFC107" stroke="#B71C1C" stroke-width="2"/>
+          <!-- RIGHT LEG (extended) -->
+          <path d="M 115 160 Q 130 180 140 240" stroke="#B71C1C" stroke-width="8" stroke-linecap="round" fill="none"/>
+          <circle cx="140" cy="240" r="5" fill="#FFC107" stroke="#B71C1C" stroke-width="2"/>
+          <!-- JEWELRY - NECKLACE -->
+          <path d="M 75 125 Q 100 135 125 125" stroke="#FFC107" stroke-width="3" fill="none" stroke-linecap="round"/>
+          <!-- JEWELRY - ARMBAND -->
+          <circle cx="50" cy="85" r="4" fill="none" stroke="#FFC107" stroke-width="2"/>
+          <!-- DECORATIVE CIRCLE FRAME (Chakra) -->
+          <circle cx="100" cy="120" r="95" fill="none" stroke="#FFC107" stroke-width="3" opacity="0.3"/>
+          <circle cx="100" cy="120" r="90" fill="none" stroke="#B71C1C" stroke-width="2" opacity="0.2"/>
+        </svg>
+      </div>
+      <svg class="hero-decoration-rangoli" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <g stroke="#B71C1C" stroke-width="1.5" fill="none" opacity="0.4">
+          <circle cx="100" cy="100" r="80"/>
+          <circle cx="100" cy="100" r="65"/>
+          <circle cx="100" cy="100" r="50"/>
+        </g>
+        <g stroke="#FFC107" stroke-width="1" fill="none" opacity="0.3">
+          <line x1="100" y1="20" x2="100" y2="180"/>
+          <line x1="20" y1="100" x2="180" y2="100"/>
+        </g>
+      </svg>
+      <div class="hero-decoration-band"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT / PHILOSOPHY SECTION -->
+  <section class="about" id="about">
+    <div class="reveal">
+      <div class="about-quote">"Every gesture tells a story. Every rhythm carries centuries."</div>
+    </div>
+    <div class="reveal">
+      <div class="about-text">
+        <p>Nandini Dance School is dedicated to preserving and sharing the rich heritage of Bharatanatyam, one of India's most classical and expressive dance forms. Our mission is to teach not just the movements, but the soul of the dance — the devotion, the storytelling, and the spiritual connection that makes this art form timeless.</p>
+        <p>We believe that dance is a universal language. Whether you're 5 or 55, whether you've never danced before or you're an experienced performer, there's a place for you in our community. We teach with patience, passion, and respect for the tradition.</p>
+      </div>
+    </div>
+    <svg class="lotus-divider" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <ellipse cx="50" cy="20" rx="12" ry="18" fill="#FFC107" stroke="#FFC107" stroke-width="1"/>
+      <ellipse cx="70" cy="30" rx="12" ry="18" fill="#FFC107" stroke="#FFC107" stroke-width="1" transform="rotate(60 50 50)"/>
+      <ellipse cx="70" cy="70" rx="12" ry="18" fill="#FFC107" stroke="#FFC107" stroke-width="1" transform="rotate(120 50 50)"/>
+      <ellipse cx="50" cy="80" rx="12" ry="18" fill="#FFC107" stroke="#FFC107" stroke-width="1" transform="rotate(180 50 50)"/>
+      <ellipse cx="30" cy="70" rx="12" ry="18" fill="#FFC107" stroke="#FFC107" stroke-width="1" transform="rotate(240 50 50)"/>
+      <ellipse cx="30" cy="30" rx="12" ry="18" fill="#FFC107" stroke="#FFC107" stroke-width="1" transform="rotate(300 50 50)"/>
+      <circle cx="50" cy="50" r="15" fill="#B71C1C" stroke="#FFC107" stroke-width="2"/>
+    </svg>
+  </section>
+
+  <!-- GALLERY / PORTFOLIO SECTION -->
+  <section class="gallery" id="gallery">
+    <h2 class="section-title reveal">Performances & Moments</h2>
+    
+    <div class="gallery-grid">
+      <div class="gallery-card reveal" onclick="openLightbox('https://www.youtube.com/embed/dQw4w9WgXcQ')">
+        <div class="gallery-thumbnail">
+          <div class="play-icon"></div>
+        </div>
+        <div class="gallery-info">
+          <div class="gallery-title">Bharatanatyam Recital 2024</div>
+        </div>
+      </div>
+      
+      <div class="gallery-card reveal" onclick="openLightbox('https://www.youtube.com/embed/jNQXAC9IVRw')">
+        <div class="gallery-thumbnail">
+          <div class="play-icon"></div>
+        </div>
+        <div class="gallery-info">
+          <div class="gallery-title">Student Showcase Performance</div>
+        </div>
+      </div>
+      
+      <div class="gallery-card reveal" onclick="openLightbox('https://www.youtube.com/embed/9bZkp7q19f0')">
+        <div class="gallery-thumbnail">
+          <div class="play-icon"></div>
+        </div>
+        <div class="gallery-info">
+          <div class="gallery-title">Classical Dance Workshop</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PRESS SECTION -->
+    <div class="press-section">
+      <h3 class="press-title reveal">In The News</h3>
+      <div class="press-grid">
+        <div class="press-card reveal">
+          <div class="press-icon">📰</div>
+          <div class="press-content">
+            <h4>Nandini Dance School Celebrates 5 Years of Excellence</h4>
+            <p>Local Arts Weekly — March 2024</p>
+          </div>
+        </div>
+        
+        <div class="press-card reveal">
+          <div class="press-icon">📰</div>
+          <div class="press-content">
+            <h4>Bringing Classical Dance to the Community</h4>
+            <p>Gloucestershire Gazette — January 2024</p>
+          </div>
+        </div>
+        
+        <div class="press-card reveal">
+          <div class="press-icon">📰</div>
+          <div class="press-content">
+            <h4>Students Perform at National Cultural Festival</h4>
+            <p>Arts & Culture Today — November 2023</p>
+          </div>
+        </div>
+        
+        <div class="press-card reveal">
+          <div class="press-icon">📰</div>
+          <div class="press-content">
+            <h4>Meet the Founder: Preserving Indian Heritage Through Dance</h4>
+            <p>Community Voices Magazine — August 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKING FORM SECTION -->
+  <section class="booking" id="booking">
+    <h2 class="section-title reveal">Book Your Trial Class</h2>
+    
+    <form class="booking-form" id="bookingForm" onsubmit="handleFormSubmit(event)">
+      <div class="form-group">
+        <label for="fullName">Full Name *</label>
+        <input type="text" id="fullName" name="fullName" required>
+        <span class="error-message">Please enter your full name</span>
+      </div>
+      
+      <div class="form-group">
+        <label for="childName">Child's Name (if applicable) *</label>
+        <input type="text" id="childName" name="childName" required>
+        <span class="error-message">Please enter a name</span>
+      </div>
+      
+      <div class="form-group">
+        <label for="ageGroup">Age Group *</label>
+        <select id="ageGroup" name="ageGroup" required>
+          <option value="">Select an age group</option>
+          <option value="5-8">5–8 years</option>
+          <option value="9-12">9–12 years</option>
+          <option value="13-16">13–16 years</option>
+          <option value="adult">Adult</option>
+        </select>
+        <span class="error-message">Please select an age group</span>
+      </div>
+      
+      <div class="form-group">
+        <label for="phone">Contact Number *</label>
+        <input type="tel" id="phone" name="phone" required>
+        <span class="error-message">Please enter a valid phone number</span>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required>
+        <span class="error-message">Please enter a valid email address</span>
+      </div>
+      
+      <div class="form-group">
+        <label for="date">Preferred Date *</label>
+        <input type="date" id="date" name="date" required>
+        <span class="error-message">Please select a date</span>
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Message / Special Requirements</label>
+        <textarea id="message" name="message" placeholder="Tell us anything we should know..."></textarea>
+      </div>
+      
+      <button type="submit" class="submit-button">Reserve My Spot →</button>
+      
+      <div class="success-message" id="successMessage">
+        <div class="checkmark">✓</div>
+        <div>We'll be in touch!</div>
+      </div>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>Nandini Dance School</h4>
+        <p>Preserving the art of Bharatanatyam, one student at a time.</p>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#booking">Book Now</a></li>
+          <li><a href="tel:07807371958">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="social-icons">
+          <a href="https://facebook.com/nandini-dance" class="social-icon" title="Facebook">f</a>
+          <a href="https://instagram.com/nandini-dance" class="social-icon" title="Instagram">📷</a>
+          <a href="https://linkedin.com/company/nandini-dance" class="social-icon" title="LinkedIn">in</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      © 2025 Nandini Dance School. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+      <iframe id="lightboxIframe" src="" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/scroll-color.js"></script>
+  <script src="js/booking-form.js"></script>
+  <script src="js/gallery.js"></script>
+  
+  <script>
+    // MOBILE MENU TOGGLE
+    function toggleMobileMenu() {
+      const hamburger = document.querySelector('.hamburger');
+      const navLinks = document.querySelector('.nav-links');
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    }
+
+    // CLOSE MOBILE MENU ON LINK CLICK
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.querySelector('.hamburger').classList.remove('active');
+        document.querySelector('.nav-links').classList.remove('active');
+      });
+    });
+
+    // HEADER STICKY ACTIVATION
+    window.addEventListener('scroll', () => {
+      const header = document.querySelector('header');
+      if (window.scrollY > 100) {
+        header.classList.add('sticky-active');
+      } else {
+        header.classList.remove('sticky-active');
+      }
+    });
+  </script>
+</body>
+</html>
